@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "930840395220",
+    "firebase_url": "https://weddingplanner-edb40.firebaseio.com",
+    "project_id": "weddingplanner-edb40",
+    "storage_bucket": "weddingplanner-edb40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930840395220:android:15a4967b6001622f422a41",
+        "android_client_info": {
+          "package_name": "com.example.weddingplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930840395220-73ocqlk1ooepjmk2a5h0ca1dfm10j1ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weddingplanner",
+            "certificate_hash": "59eddd99a3da4afde84c77b4da90df311c6cbbcf"
+          }
+        },
+        {
+          "client_id": "930840395220-gaoleoq7oklrgda9m99f627uergab8v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC-uGa3SLIxz7kCizVigty0rZP2Cf03wY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930840395220-gaoleoq7oklrgda9m99f627uergab8v2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
