@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+   tools:context=".Congratulation">
+
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="2000dp"
+       android:layout_marginTop="45dp"
+       android:layout_margin="70dp"
+       android:layout_above="@+id/congrats"
+       android:src="@drawable/like">
+
+   </ImageView>
+
+   <TextView
+       android:id="@+id/congrats"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:text="Congratulations"
+       android:textAllCaps="true"
+       android:textColor="#039BE5"
+       android:layout_marginLeft="70dp"
+       android:layout_marginRight="35dp"
+       android:layout_centerVertical="true"
+       android:textStyle="bold"
+       android:textSize="25dp"
+       />
+
+   <TextView
+       android:id="@+id/subtext"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:layout_below="@+id/congrats"
+       android:text="You managed to make it this far."
+       android:textColor="#bac4bd"
+       android:layout_marginLeft="70dp"
+       android:layout_marginRight="35dp"
+       android:layout_centerVertical="true"
+       android:textStyle="bold"
+       android:textSize="17dp"
+       />
+
+   <Button
+       android:id="@+id/con"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/congrats"
+       android:layout_margin="100dp"
+       android:padding="15dp"
+       android:text="Continue"
+       android:textAllCaps="true"
+       android:layout_centerHorizontal="true"
+       android:textColor="@android:color/white"
+       android:background="@drawable/rounded_button"
+       android:textSize="17sp"
+       />
+
+
+
+
+
+</RelativeLayout>

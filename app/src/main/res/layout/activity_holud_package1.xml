@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoludPackage1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Package For Holud"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="#080808"
+            android:textStyle="bold"
+            android:layout_height="match_parent"></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Flower"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holudflower1"
+            android:layout_height="wrap_content">
+
+
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lighting"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holudlighting1"
+            android:layout_height="wrap_content">
+
+
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Stage"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holudstage1"
+            android:layout_height="wrap_content">
+
+
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Food"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holudfood1"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Music"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holudmusic1"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Decoration"
+            android:textColor="#1b1b1b"
+            android:textSize="20dp"
+            ></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"></Space>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/holuddeco1"
+            android:layout_height="wrap_content">
+        </ImageView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Total Price :BDT 50000"
+            android:id="@+id/tprice"
+            android:textColor="#708090"
+            android:layout_height="match_parent"></TextView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"></Space>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Add to Cart"
+            android:textStyle="bold"
+            android:background="#ff0000"
+            android:id="@+id/button_cart"
+
+            ></Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -4,26 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Akdh">
+    tools:context=".Mehendi_sangeet">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Akdh">
+    tools:context=".Mehendi_sangeet">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/akdh"
-        android:id="@+id/akdh_event"
+        android:src="@drawable/mehendi"
+        android:id="@+id/mehendi_event"
         android:layout_marginTop="-110dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="-60dp"
         />
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_event"
-        android:id="@+id/akdh_pkg_1"
+        android:layout_below="@id/mehendi_event"
+        android:id="@+id/mehendi_pkg_1"
         android:text="Normal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -34,12 +34,11 @@
         android:textColor="@android:color/white"
         android:textSize="17sp"
         />
-
     <Button
-        android:id="@+id/akdh_pkg_2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_pkg_1"
+        android:layout_below="@id/mehendi_pkg_1"
+        android:id="@+id/mehendi_pkg_2"
         android:text="Medium"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -50,12 +49,11 @@
         android:textColor="@android:color/white"
         android:textSize="17sp"
         />
-
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_pkg_2"
-        android:id="@+id/akdh_pkg_3"
+        android:layout_below="@id/mehendi_pkg_2"
+        android:id="@+id/mehendi_pkg_3"
         android:text="Luxury"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -65,7 +63,9 @@
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="17sp"
+
         />
+
 
 </RelativeLayout>
 </ScrollView>

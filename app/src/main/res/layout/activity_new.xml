@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".NewActivity"
+    >
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:src="@drawable/main_logo"
+
+
+        />
+
+    <TextView
+        android:id="@+id/user_name_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_logo"
+        android:text="Email"
+        android:textColor="#039BE5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:layout_below="@+id/user_name_heading"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:radius="100dp"
+
+        />
+    <TextView
+        android:id="@+id/password_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/user_name"
+        android:textColor="#039BE5"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/password_heading"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="17sp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:id="@+id/login_btn"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:padding="15dp"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:text="Log In"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+
+
+        />
+    <TextView
+        android:id="@+id/dont_have"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Don't have an Account?"
+        />
+
+    <TextView
+
+        android:id="@+id/sign_up"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/login_btn"
+        android:paddingLeft="500dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="5dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#039BE5"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

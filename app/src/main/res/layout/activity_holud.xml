@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Akdh">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Akdh">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/akdh"
-        android:id="@+id/akdh_event"
-        android:layout_marginTop="-110dp"
-        android:layout_marginBottom="20dp"
-        />
+    tools:context=".Holud">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/holud"
+    android:id="@+id/holud_event"
+    android:layout_marginTop="-35dp"
+    />
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_event"
-        android:id="@+id/akdh_pkg_1"
+        android:layout_below="@id/holud_event"
+        android:id="@+id/holud_pkg_1"
         android:text="Normal"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -34,12 +28,11 @@
         android:textColor="@android:color/white"
         android:textSize="17sp"
         />
-
     <Button
-        android:id="@+id/akdh_pkg_2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_pkg_1"
+        android:layout_below="@id/holud_pkg_1"
+        android:id="@+id/holud_pkg_2"
         android:text="Medium"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -50,12 +43,11 @@
         android:textColor="@android:color/white"
         android:textSize="17sp"
         />
-
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/akdh_pkg_2"
-        android:id="@+id/akdh_pkg_3"
+        android:layout_below="@id/holud_pkg_2"
+        android:id="@+id/holud_pkg_3"
         android:text="Luxury"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -65,7 +57,9 @@
         android:textAllCaps="true"
         android:textColor="@android:color/white"
         android:textSize="17sp"
+
         />
 
+
+
 </RelativeLayout>
-</ScrollView>
